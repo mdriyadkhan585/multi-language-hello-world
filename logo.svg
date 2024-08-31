@@ -1,18 +1,21 @@
-<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background rectangle -->
-  <rect width="100%" height="100%" fill="#f0f0f0" />
+<svg width="400" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f2f2f2" />
 
   <!-- Text -->
-  <text x="50%" y="50%" font-family="Arial" font-size="20" fill="#333" text-anchor="middle" dominant-baseline="middle">
+  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="32" fill="#333" text-anchor="middle" dominant-baseline="middle">
     Hello, World!
   </text>
 
   <!-- Simple Code Icon -->
-  <g fill="none" stroke="#333" stroke-width="2">
-    <line x1="10" y1="30" x2="30" y2="30" />
-    <line x1="30" y1="30" x2="25" y2="20" />
-    <line x1="25" y1="20" x2="45" y2="20" />
-    <line x1="45" y1="20" x2="40" y2="30" />
-    <line x1="40" y1="30" x2="60" y2="30" />
+  <g fill="none" stroke="#4CAF50" stroke-width="5">
+    <polyline points="50,75 25,50 50,25" />
+    <polyline points="350,75 375,50 350,25" />
   </g>
+
+  <!-- Colorful Circles -->
+  <circle cx="90" cy="40" r="10" fill="#FF5722" />
+  <circle cx="310" cy="40" r="10" fill="#2196F3" />
+  <circle cx="90" cy="110" r="10" fill="#FFC107" />
+  <circle cx="310" cy="110" r="10" fill="#8BC34A" />
 </svg>
