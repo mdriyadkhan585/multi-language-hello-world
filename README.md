@@ -1,6 +1,6 @@
 # multi-language-hello-world
 
-![Project Logo](logo.svg)
+![Logo](logo.svg)
 
 ---
 
